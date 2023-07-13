@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-restx = "*"
+flask-sqlalchemy = "*"
+flask = "*"
+mysqlclient = "*"
+pyjwt = "*"
+pyopenssl = "*"
+flask-mail = "*"
+flask-cors = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
